@@ -75,6 +75,9 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  mounted() {
+    this.msg = "jsalflskjd";
   }
 };
 </script>
